@@ -1,6 +1,9 @@
 # Compressor de Imagens para Android (Pydroid 3)
 
+[🇺🇸 English](README.md) | 🇧🇷 Português
+
 Um script simples em Python para comprimir imagens diretamente em dispositivos Android utilizando o Pydroid 3.
+
 Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e Pydroid 3.
 
 ## 📖 Motivação
@@ -107,7 +110,14 @@ Para mais detalhes, consulte o arquivo `LICENSE` presente neste repositório.
 
 
 ## Histórico de versões:
-15e0686 (HEAD -> master) Docs: Criação do README explicativo.
+93af481 (HEAD -> main) Docs: README English and PT-BR
 
-57b7158 Feat: Primeira versão do compressor de imagens
+023ff74 (origin/main, origin/HEAD) Merge branch 'main' of https://github.com/EduReiss/compresssor-de-imagens-pydroid
+b9383fe Docs: Adição de MIT License
+
+1708fce Initial commit
+
+2bed3cd docs: histórico de versões
+
+15e0686 Docs: Criação do README explicativo.
 
