@@ -89,3 +89,9 @@ Mais do que comprimir uma imagem, este projeto representou uma oportunidade de a
 ## 📄 Licença
 
 Este projeto está disponível sob a licença MIT.
+
+## Histórico de versões:
+15e0686 (HEAD -> master) Docs: Criação do README explicativo.
+
+57b7158 Feat: Primeira versão do compressor de imagens
+
