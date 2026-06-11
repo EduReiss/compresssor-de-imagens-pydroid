@@ -88,7 +88,23 @@ Mais do que comprimir uma imagem, este projeto representou uma oportunidade de a
 
 ## 📄 Licença
 
-Este projeto está disponível sob a licença MIT.
+## 📄 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+Você tem permissão para:
+
+* Utilizar o código para fins pessoais ou comerciais;
+* Modificar e adaptar o código;
+* Distribuir cópias do projeto;
+* Incorporar partes do código em outros projetos.
+
+A única exigência é manter o aviso de copyright e a licença original em cópias ou versões derivadas do software.
+
+Para mais detalhes, consulte o arquivo `LICENSE` presente neste repositório.
+
 
 ## Histórico de versões:
 15e0686 (HEAD -> master) Docs: Criação do README explicativo.
