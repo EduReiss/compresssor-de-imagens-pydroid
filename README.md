@@ -1,113 +1,114 @@
-# Compressor de Imagens para Android (Pydroid 3)
+# Image Compressor for Android (Pydroid 3)
 
-Um script simples em Python para comprimir imagens diretamente em dispositivos Android utilizando o Pydroid 3.
-Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e Pydroid 3.
+A simple Python script for compressing images directly on Android devices using Pydroid 3.
 
-## 📖 Motivação
+This project was developed entirely on an Android smartphone using Python and Pydroid 3.
 
-Criei este projeto enquanto configurava meu currículo na Plataforma Lattes. O sistema exigia uma foto de perfil com tamanho máximo de aproximadamente 70 KB, mas a imagem que eu possuía ultrapassava 300 KB.
+## 📖 Motivation
 
-Naquele momento, eu estava longe do computador e tinha apenas meu celular com conexão 4G. Em vez de baixar um aplicativo ou enviar minha foto para um serviço online de compressão, decidi criar minha própria ferramenta para resolver o problema.
+I created this project while setting up my academic profile on the Lattes Platform. The system required a profile picture with a maximum size of approximately 70 KB, but the image I had was over 300 KB.
 
-Além de atender à necessidade imediata, o projeto serviu como uma oportunidade prática para aplicar conceitos de programação e aprender mais sobre manipulação de imagens em Python.
+At that moment, I was away from my computer and only had my phone with a 4G connection. Instead of downloading an app or uploading my photo to an online image compression service, I decided to build my own tool to solve the problem.
 
-## 🚀 Funcionalidades
+Besides meeting an immediate need, the project became a practical opportunity to apply programming concepts and learn more about image manipulation in Python.
 
-* Compressão de imagens JPEG utilizando Python;
-* Ajuste do nível de qualidade da imagem;
-* Geração de uma nova imagem comprimida sem alterar o arquivo original;
-* Execução diretamente em dispositivos Android por meio do Pydroid 3;
-* Não requer conexão com a internet;
-* Não depende de serviços externos para processamento das imagens.
+## 🚀 Features
 
-## 🛠️ Tecnologias Utilizadas
+* JPEG image compression using Python;
+* Adjustable image quality settings;
+* Creates a compressed copy without modifying the original file;
+* Runs directly on Android devices through Pydroid 3;
+* Does not require an internet connection;
+* Does not rely on external image-processing services.
+
+## 🛠️ Technologies Used
 
 * Python 3
 * Pillow (PIL)
 * Pydroid 3
 
-## ⚙️ Como Funciona
+## ⚙️ How It Works
 
-O script realiza os seguintes passos:
+The script performs the following steps:
 
-1. Define o diretório onde a imagem está armazenada;
-2. Carrega a imagem selecionada utilizando a biblioteca Pillow;
-3. Aplica a compressão com o nível de qualidade configurado pelo usuário;
-4. Salva uma nova versão comprimida da imagem;
-5. Mantém o arquivo original intacto.
+1. Defines the directory where the image is stored;
+2. Loads the selected image using the Pillow library;
+3. Applies compression based on the user-defined quality level;
+4. Saves a new compressed version of the image;
+5. Keeps the original file untouched.
 
-## 📊 Exemplo de Uso
+## 📊 Example Usage
 
-Imagem original:
+Original image:
 
-* Tamanho superior a 300 KB
+* Larger than 300 KB
 
-Imagem comprimida:
+Compressed image:
 
-* Tamanho reduzido conforme o nível de qualidade definido
-* Valor de qualidade recomendado: entre 20 e 75
+* Reduced size depending on the selected quality level;
+* Recommended quality value: between 20 and 75.
 
-## Como usar:
+### How to Use
 
-1. Clone o repositório
-2. Abra o Compressor.py em um editor
-3. Na variável 'pasta', substitua a string pelo diretório da pasta onde está a foto que você deseja comprimir
-4. Na variável 'foto', substitua a string 'NOME DA FOTO' pelo nome da foto que você deseja comprimir (Não esqueça do .jpg no final)
-5. Em img.save, altere o valor do parâmetro 'quality' para o nível de qualidade que você quer. Recomendo algo entre 20 e 75. Quanto mais baixo o valor, mais leve a imagem, mas com menos qualidade e vice versa.
-6. Execute o programa
-7. Procure a imagem no seu celular (Minha recomendação: Não use o aplicativo da galeria por motivos já explicados nesse README. Use o explorador de arquivos do seu celular e vá para a pasta onde as fotos estão)
+1. Clone the repository;
+2. Open `Compressor.py` in a code editor;
+3. In the `pasta` variable, replace the string with the path of the folder containing the image you want to compress;
+4. In the `foto` variable, replace the string `"IMAGE NAME"` with the name of the image you want to compress (don't forget the `.jpg` extension);
+5. In `img.save`, adjust the `quality` parameter to the desired compression level. I recommend values between 20 and 75. The lower the value, the smaller the file size but the lower the image quality, and vice versa;
+6. Run the program;
+7. Locate the compressed image on your device. My recommendation is to avoid using the Gallery app for the reasons explained in this README. Instead, use your device's file explorer and navigate to the folder where the images are stored.
 
+## 📚 What I Learned
 
-## 📚 O Que Aprendi
+During testing, I noticed that the images generated by the script did not always appear immediately in the Android Gallery.
 
-Durante os testes, percebi que as imagens geradas pelo script nem sempre apareciam imediatamente na galeria do Android.
+After investigating the issue, I learned that Android uses a process called **Media Scanner**, which is responsible for updating the device's media database. Since Python saves files directly to storage, Android may take some time to recognize that a new image has been created.
 
-Ao investigar o problema, descobri que o sistema utiliza um processo chamado **Media Scanner**, responsável por atualizar o banco de dados de mídia do dispositivo. Como o Python salva os arquivos diretamente no armazenamento, o Android pode levar algum tempo para reconhecer que uma nova imagem foi criada.
+As a temporary workaround, I used the file explorer to directly access the folder where the compressed images were being saved.
 
-Como solução temporária, utilizei o explorador de arquivos para acessar diretamente a pasta onde as imagens comprimidas eram salvas.
+This experience taught me not only about image manipulation in Python but also about how Android handles media indexing and file management.
 
-Essa experiência me permitiu aprender não apenas sobre manipulação de imagens em Python, mas também sobre o funcionamento do sistema de arquivos e do gerenciamento de mídia no Android.
+## 🔮 Future Improvements
 
-## 🔮 Melhorias Futuras
+* Refactor the code into reusable functions;
+* Add error handling;
+* Support additional image formats;
+* Implement automatic JPEG conversion when necessary;
+* Investigate ways to automatically refresh the gallery after creating a new image;
+* Develop a simple graphical user interface (GUI);
+* Fix the filename concatenation issue where the compressed image may be saved with a name such as `photo.jpgcompressed.jpg`.
 
-* Transformar o código em funções reutilizáveis;
-* Adicionar tratamento de erros;
-* Suportar outros formatos de imagem;
-* Implementar conversão automática para JPEG quando necessário;
-* Investigar formas de atualizar automaticamente a galeria após a criação da imagem;
-* Desenvolver uma interface gráfica simples para facilitar o uso.
-* Resolver bug de concatenação JPG com o nome do arquivo original e o nome do arquivo após a compressão (Exemplo: Após comprimido, o arquivo pode ficar salvo como algo parecido como "foto.jpg comprimida.jpg")
+## 💡 Why Does This Project Exist?
 
-## 💡 Por Que Este Projeto Existe?
+This is a simple project, but it demonstrates one of the things I enjoy most about programming: the ability to turn everyday problems into practical solutions.
 
-Este é um projeto simples, mas que demonstra uma das coisas que mais gosto na programação: a capacidade de transformar um problema do cotidiano em uma solução prática.
+More than just compressing an image, this project was an opportunity to learn, experiment, and better understand how software interacts with the operating system.
 
-Mais do que comprimir uma imagem, este projeto representou uma oportunidade de aprender, experimentar e entender melhor como o software interage com o sistema operacional.
+Sometimes the most valuable projects are not the most complex ones, but the ones that emerge from the need to solve a real problem.
 
-Às vezes, os projetos mais valiosos não são os mais complexos, mas aqueles que surgem da necessidade de resolver um problema real.
+## 📄 License
 
-## 📄 Licença
+This project is licensed under the MIT License.
 
-## 📄 Licença
+See the [LICENSE](LICENSE) file for more information.
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+You are free to:
 
-Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+* Use the code for personal or commercial purposes;
+* Modify and adapt the code;
+* Distribute copies of the project;
+* Incorporate parts of the code into other projects.
 
-Você tem permissão para:
+The only requirement is that the original copyright notice and license remain included in copies or derivative works of the software.
 
-* Utilizar o código para fins pessoais ou comerciais;
-* Modificar e adaptar o código;
-* Distribuir cópias do projeto;
-* Incorporar partes do código em outros projetos.
+For more details, see the LICENSE file included in this repository.
 
-A única exigência é manter o aviso de copyright e a licença original em cópias ou versões derivadas do software.
+## 📜 Version History
 
-Para mais detalhes, consulte o arquivo `LICENSE` presente neste repositório.
+### 15e0686
 
+**Docs:** Created the project README.
 
-## Histórico de versões:
-15e0686 (HEAD -> master) Docs: Criação do README explicativo.
+### 57b7158
 
-57b7158 Feat: Primeira versão do compressor de imagens
-
+**Feat:** Initial version of the image compressor.
