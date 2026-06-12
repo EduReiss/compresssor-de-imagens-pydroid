@@ -15,16 +15,27 @@ Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e P
 ## Screenshots
 
 ### Execução do Programa
+
+> Execução do script no Pydroid 3.
+
+
 ![Código](assets/código.jpeg)
 
 
 
 ### Imagem antes de ser comprimida
+
+> Imagem antes da compressão (aproximadamente 50 KB).
+
+
 ![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpeg)
 
 
 
 ### Imagem comprimida
+
+> Resultado após a execução do script. Observe a redução significativa do tamanho do arquivo mantendo uma qualidade visual satisfatória.
+
 ![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpeg)
 
 

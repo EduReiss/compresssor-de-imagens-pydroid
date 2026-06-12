@@ -15,17 +15,29 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 ## Screenshots
 
 ### Program execution
-![Code](assets/código.jpeg)
+
+> Script execution on Pydroid 3.
+
+
+![Código](assets/código.jpeg)
 
 
 
-### Before compression
-![Image before executing the code (notice the size and quality)](assets/imagem_descomprimida.jpeg)
+### Imagem antes de ser comprimida
+
+> Imagem before compression (approximately 50 KB).
+
+
+![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpeg)
 
 
 
-### Aftter compression
-![Image after executing the code (notice the size and quality)](assets/imagem_comprimida.jpeg)
+### Imagem comprimida
+
+> Result after script execution. Notice the signficantly shrink on the size while still keeping an satisfactory quality.
+
+![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpeg)
+
 
 ## 📖 Motivation
 
