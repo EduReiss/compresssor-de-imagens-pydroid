@@ -19,7 +19,7 @@ Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e P
 > Execução do script no Pydroid 3.
 
 
-![Código](assets/código.jpeg)
+![Código](assets/código.jpg)
 
 
 
@@ -29,7 +29,7 @@ Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e P
 > Imagem pertencente a Tai Bui, baixada na plataforma Unsplash (https://unsplash.com/pt-br/fotografias/um-gato-deitado-em-cima-de-um-computador-portatil-393l7SYoM7w?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 
-![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpeg)
+![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpg)
 
 
 
@@ -37,7 +37,7 @@ Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e P
 
 > Resultado após a execução do script. Observe a redução significativa do tamanho do arquivo mantendo uma qualidade visual satisfatória.
 
-![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpeg)
+![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpg)
 
 
 ## 📖 Motivação

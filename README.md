@@ -19,7 +19,7 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 > Script execution on Pydroid 3.
 
 
-![Código](assets/código.jpeg)
+![Código](assets/código.jpg)
 
 
 
@@ -28,7 +28,7 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 > Image before compression (approximately 2,5 MB).
 > Picture belongs to Tai Bui, downloaded at Unsplash (https://unsplash.com/pt-br/fotografias/um-gato-deitado-em-cima-de-um-computador-portatil-393l7SYoM7w?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpeg)
+![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpg)
 
 
 
@@ -36,7 +36,7 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 
 > Result after script execution. Notice the signficantly shrink on the size while still keeping an satisfactory quality.
 
-![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpeg)
+![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpg)
 
 
 ## 📖 Motivation
