@@ -26,7 +26,7 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 ### Image before compression
 
 > Image before compression (approximately 2,5 MB).
-> Imagem de [Tai Bui](https://unsplash.com/pt-br/fotografias/um-gato-deitado-em-cima-de-um-computador-portatil-393l7SYoM7w) do Unsplash
+> [Tai Bui](https://unsplash.com/pt-br/fotografias/um-gato-deitado-em-cima-de-um-computador-portatil-393l7SYoM7w)'s Picture from Unsplash
 
 ![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpg)
 
