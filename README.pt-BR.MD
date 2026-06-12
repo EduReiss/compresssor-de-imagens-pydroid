@@ -26,7 +26,7 @@ Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e P
 ### Imagem antes de ser comprimida
 
 > Imagem antes da compressão (aproximadamente 2,5 MB).
-> Imagem pertencente a Tai Bui, baixada na plataforma Unsplash (https://unsplash.com/pt-br/fotografias/um-gato-deitado-em-cima-de-um-computador-portatil-393l7SYoM7w?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+> Imagem de [Tai Bui](https://unsplash.com/pt-br/fotografias/um-gato-deitado-em-cima-de-um-computador-portatil-393l7SYoM7w) do Unsplash
 
 
 ![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpg)
