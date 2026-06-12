@@ -6,6 +6,22 @@ Um script simples em Python para comprimir imagens diretamente em dispositivos A
 
 Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e Pydroid 3.
 
+## Screenshots
+
+### Execução do Programa
+![Código]("assets/código.jpeg")
+
+
+
+### Imagem antes de ser comprimida
+![Imagem antes de rodar o código (repare no tamanho da imagem)]("assets/imagem_descomprimida.jpeg")
+
+
+
+### Imagem comprimida
+![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](""assets/imagem_comprimida.jpeg"")
+
+
 ## 📖 Motivação
 
 Criei este projeto enquanto configurava meu currículo na Plataforma Lattes. O sistema exigia uma foto de perfil com tamanho máximo de aproximadamente 70 KB, mas a imagem que eu possuía ultrapassava 300 KB.
