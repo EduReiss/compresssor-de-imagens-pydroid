@@ -15,17 +15,17 @@ Projeto desenvolvido inteiramente em um smartphone Android utilizando Python e P
 ## Screenshots
 
 ### Execução do Programa
-![Código]("assets/código.jpeg")
+![Código](assets/código.jpeg)
 
 
 
 ### Imagem antes de ser comprimida
-![Imagem antes de rodar o código (repare no tamanho da imagem)]("assets/imagem_descomprimida.jpeg")
+![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpeg)
 
 
 
 ### Imagem comprimida
-![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](""assets/imagem_comprimida.jpeg"")
+![Imagem após a execução do código (repare no tamanho da imagem e na qualidade)](assets/imagem_comprimida.jpeg)
 
 
 ## 📖 Motivação

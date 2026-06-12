@@ -15,17 +15,17 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 ## Screenshots
 
 ### Program execution
-![Code]("assets/código.jpeg")
+![Code](assets/código.jpeg)
 
 
 
 ### Before compression
-![Image before executing the code (notice the size and quality)]("assets/imagem_descomprimida.jpeg")
+![Image before executing the code (notice the size and quality)](assets/imagem_descomprimida.jpeg)
 
 
 
 ### Aftter compression
-![Image after executing the code (notice the size and quality)]("assets/imagem_comprimida.jpeg")
+![Image after executing the code (notice the size and quality)](assets/imagem_comprimida.jpeg)
 
 ## 📖 Motivation
 
