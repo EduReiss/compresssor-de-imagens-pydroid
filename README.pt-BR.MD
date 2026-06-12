@@ -1,5 +1,11 @@
 # Compressor de Imagens para Android (Pydroid 3)
 
+![Built on Smartphone](https://img.shields.io/badge/Built%20on-Smartphone-blueviolet)
+![Pydroid 3](https://img.shields.io/badge/Developed%20with-Pydroid%203-orange)
+![Static Badge](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Static Badge](https://img.shields.io/badge/Platform-Android-green)
+
 [🇺🇸 English](README.md) | 🇧🇷 Português
 
 Um script simples em Python para comprimir imagens diretamente em dispositivos Android utilizando o Pydroid 3.
