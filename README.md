@@ -23,16 +23,16 @@ Project developed entirely on a Android Smartphone, using Pydroid 3.
 
 
 
-### Imagem antes de ser comprimida
+### Image before compression
 
-> Imagem before compression (approximately 50 KB).
+> Image before compression (approximately 50 KB).
 
 
 ![Imagem antes de rodar o código (repare no tamanho da imagem)](assets/imagem_descomprimida.jpeg)
 
 
 
-### Imagem comprimida
+### Compressed image
 
 > Result after script execution. Notice the signficantly shrink on the size while still keeping an satisfactory quality.
 
